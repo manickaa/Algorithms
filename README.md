@@ -32,3 +32,5 @@ Explanation: The array is divided logN times (N -> N/2 -> N/4 -> N/8 -> .... -> 
  5. Quick Sort:
  
 This algorithm also uses 'Divide and conquer' technique. The last index of the array is chosen as the pivot and all the elements before the pivot are compared to it. We also have a pointer to the starting of the array and increment it each time an element is swapped. If the element is greater than pivot, it is left as it is. If the element is less than pivot, the element that is compared to pivot and the element pointed by the pointer are swapped. Finally, swap the pivot element with the element pointed by the pointer after the comparisons. Now, the process is repeated recursively for the first part of the array ( start to pivot-1) and the second part of the array(pivot+1 to end. 
+
+Time Complexity : O(N logN)
